@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Function with message with no param passed
 usage() {
 	echo "Usage: $0 [MAX_NUM_CORES]"
 	exit 1
