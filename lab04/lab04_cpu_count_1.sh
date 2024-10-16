@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Check if an argument has been passed by the user
+if [ -z $1 ]; then
+	echo "Usage: $0 [MAX_NUM_CORES]"
+	exit 1
+fi
+
+
 # Get required CPU cores
 requiredCores=$1
 
