@@ -6,7 +6,6 @@ if [ -z $1 ]; then
 	exit 1
 fi
 
-
 # Get required CPU cores
 requiredCores=$1
 
