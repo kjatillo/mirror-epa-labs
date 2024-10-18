@@ -51,4 +51,6 @@ elif [ $2 = "echo" ]; then
 	else
 		echo "Maximum number of processes NOT exceeded $timestamp"
 	fi
+else
+	echo "Invalid 2nd parameter: input 'echo' to print to screen or 'log' to save to file"
 fi
