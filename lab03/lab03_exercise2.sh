@@ -30,7 +30,7 @@ ct=$(ps -ef | wc -l)
 echo "There are $ct processes running on this machine"
 
 timestamp=$(date -u +"%Y-%m-%d %H:%M:%S")
-if [ $1 -gt $ct ]; then
+if [ $ct -gt $1 ]; then
 	echo "Maximum number of processes exceeded $timestamp" >> log.txt
 else
 	echo "Maximum number of processes NOT exceeded $timestamp" >> log.txt

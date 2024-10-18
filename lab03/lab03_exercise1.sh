@@ -29,7 +29,7 @@ fi
 ct=$(ps -ef | wc -l)
 echo "There are $ct processes running on this machine"
 
-if [ $1 -gt $ct ]; then
+if [ $ct -gt $1 ]; then
 	echo "Maximum number of processes exceeded"
 else
 	echo "Maximum number of processes NOT exceeded"

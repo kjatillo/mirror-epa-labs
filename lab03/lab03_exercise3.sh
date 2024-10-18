@@ -19,8 +19,17 @@ done
 # the first, second etc parameter into this script
 if [ -z $1 ]; then
 	echo "You didn't pass any paraemters to $0"
+	exit 1
 else
 	echo "You passed in $1 to $0"
+fi
+
+# Check if user has passed a second param
+if [ -z $2 ]; then
+	echo "Specify a second parameter 'echo' to print to screen or 'log' to save to file"
+	exit 1
+else
+	echo "You passed $2 as second parameter"
 fi
 
 # heres a brand new command: 
@@ -31,13 +40,13 @@ echo "There are $ct processes running on this machine"
 
 timestamp=$(date -u +"%Y-%m-%d %H:%M:%S")
 if [ $2 = "log" ]; then
-	if [ $1 -gt $ct ]; then
+	if [ $ct -gt $1 ]; then
 		echo "Maximum number of processes exceeded $timestamp" >> log.txt
 	else
 		echo "Maximum number of processes NOT exceeded $timestamp" >> log.txt
 	fi
 elif [ $2 = "echo" ]; then
-	if [ $1 -gt $ct ]; then
+	if [ $ct -gt $1 ]; then
 		echo "Maximum number of processes exceeded $timestamp"
 	else
 		echo "Maximum number of processes NOT exceeded $timestamp"
