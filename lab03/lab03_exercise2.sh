@@ -29,7 +29,7 @@ fi
 ct=$(ps -ef | wc -l)
 echo "There are $ct processes running on this machine"
 
-timestamp=$(date -u +"%Y-%m-%d %H:%M:%S")
+timestamp=$(TZ="Europe/Dublin" date +"%Y-%m-%d %H:%M:%S")
 if [ $ct -gt $1 ]; then
 	echo "Maximum number of processes exceeded $timestamp" >> log.txt
 else
