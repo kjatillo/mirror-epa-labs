@@ -1,2 +1,65 @@
 Maximum number of processes exceeded 2024-10-18 11:53:11
 Maximum number of processes NOT exceeded 2024-10-18 11:53:14
+found the third item
+You didn't pass any paraemters to ./lab03_exercise2.sh
+There are 37 processes running on this machine
+Maximum number of processes NOT exceeded 2024-10-24 13:38:25
+---------------------------
+Log recorded at: 2024-10-24 13:41:14
+---------------------------
+Count: 1
+Count: 2
+Count: 3
+found the third item
+Count: 4
+Count: 5
+You didn't pass any paraemters to ./lab03_exercise2.sh
+There are 37 processes running on this machine
+Maximum number of processes NOT exceeded
+-------------------------------------
+Log recorded at: 2024-10-24 13:42:25
+-------------------------------------
+Count: 1
+Count: 2
+Count: 3
+found the third item
+Count: 4
+Count: 5
+You didn't pass any paraemters to ./lab03_exercise2.sh
+-------------------------------------
+Log recorded at: 2024-10-24 13:42:50
+-------------------------------------
+Count: 1
+Count: 2
+Count: 3
+found the third item
+Count: 4
+Count: 5
+You passed in 12 to ./lab03_exercise2.sh
+There are 37 processes running on this machine
+Maximum number of processes exceeded
+-------------------------------------
+Log recorded at: 2024-10-24 13:42:56
+-------------------------------------
+Count: 1
+Count: 2
+Count: 3
+found the third item
+Count: 4
+Count: 5
+You passed in 40 to ./lab03_exercise2.sh
+There are 37 processes running on this machine
+Maximum number of processes NOT exceeded
+-------------------------------------
+Log recorded at: 2024-10-24 13:47:15
+-------------------------------------
+Count: 1
+Count: 2
+Count: 3
+found the third item
+Count: 4
+Count: 5
+You passed in 12 to ./lab03_exercise2.sh
+There are 37 processes running on this machine
+Maximum number of processes exceeded
+Maximum number of processes exceeded 2024-10-24 13:47:43
