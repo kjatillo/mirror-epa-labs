@@ -63,3 +63,13 @@ You passed in 12 to ./lab03_exercise2.sh
 There are 37 processes running on this machine
 Maximum number of processes exceeded
 Maximum number of processes exceeded 2024-10-24 13:47:43
+-------------------------------------
+Log recorded at: 2024-10-24 14:18:54
+-------------------------------------
+Count: 1
+Count: 2
+Count: 3
+found the third item
+Count: 4
+Count: 5
+You didn't pass any paraemters to ./lab03_exercise2.sh
